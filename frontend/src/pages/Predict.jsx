@@ -4,7 +4,7 @@ import TopBar     from '../components/TopBar'
 import ScoreCard  from '../components/ScoreCard'
 import ShapChart  from '../components/ShapChart'
 
-const API = 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const FIELDS = [
   { name:'TransactionAmt', label:'Transaction Amount ($)', type:'number', placeholder:'150.00',    required:true,  col:1 },
