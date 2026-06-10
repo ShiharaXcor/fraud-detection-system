@@ -1,4 +1,4 @@
-# 🛡️ FraudGuard AI — Fraud Detection System
+# 🛡️ FraudGuard  — Fraud Detection System
 
 An end-to-end AI-powered fraud detection system built on the **IEEE-CIS Fraud Detection dataset** (Kaggle). The system trains XGBoost and LightGBM models, explains predictions using SHAP values, and serves results through a FastAPI backend and React dashboard.
 
